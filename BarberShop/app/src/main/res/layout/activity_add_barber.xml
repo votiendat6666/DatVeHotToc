@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="@color/Blue"
+        android:textSize="40dp"
+        android:textAlignment="center"
+
+        android:text="Thêm thợ" />
+
+    <EditText
+        android:id="@+id/etBarberName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên thợ"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etExperience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kinh nghiệm (năm)"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/etRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Đánh giá (0 - 5)"
+        android:layout_marginBottom="10dp"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnSaveBarber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/lightBlue"
+        android:text="Lưu Thợ" />
+
+</LinearLayout>
